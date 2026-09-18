@@ -10,9 +10,9 @@
 %%%%%%%%%%%%%%
 
 clc, clear all, close all
-addpath("V:\Group\gfeben00\AAA NP Papers\Diameter dependent Df\TEM\Fractal Dimension Code from Paper1 and analysis\Images to analyse")
+addpath("INSERT PATH")
 %%%read image (use grayscale here. could also insert BW. but now made as all greyscale)
-gray_img = imread('Au RT_04-cut.png'); %% 
+gray_img = imread('IMAGE.png'); %% 
 ccBW = bwconncomp(gray_img);
 disp(['Image Size (width) in Pixels is: ' num2str(ccBW.ImageSize(2))]) %ccBW.ImageSize(1): Number of rows (height in pixels)., 2 = width
 disp(' ')
